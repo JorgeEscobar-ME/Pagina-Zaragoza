@@ -1,126 +1,168 @@
 /* Aqui comienza nuestro CSS*/
 
-.bg-primary{
-    background: rgb(64, 74, 62) !important; 
+.bg-primary {
+  background: rgb(64, 74, 62) !important;
 }
-
-.bg-secondary-2{
-    background-color: rgb(245, 243, 233);
-}
-
 .navlogo {
-    max-height: 150px; /* Ajusta la altura máxima según sea necesario */
+  max-height: 150px; /* Ajusta la altura máxima según sea necesario */
 }
 
-.bottom-shadow{
-    box-shadow: 0px 16px 15px -4px rgba(0,0,0,0.1);
+h1 {
+  font-size: 40px;
+  color: black;
+  font-weight: 600;
+}
+.h1 {
+  font-size: 35px;
 }
 
-.inf-shadow{
-    -webkit-box-shadow: 0px 10px 24px -18px rgba(0,0,0,0.75);
-    -moz-box-shadow: 0px 10px 24px -18px rgba(0,0,0,0.75);
-    box-shadow: 0px 10px 24px -18px rgba(0,0,0,0.75);
-}
-
-h1{
-    font-size: 40px;
-    color: black;
-    font-weight: 600;
-}
-.h1{
-    font-size: 35px;
-}
-
-.h2{
-    font-size: 20px;
-    font-weight: 600;
+.h2 {
+  font-size: 20px;
+  font-weight: 600;
 }
 
 .divider {
-    border-left: 1px solid rgb(122, 122, 122);
+  border-left: 1px solid rgb(122, 122, 122);
 }
 .background-tortugas {
-    position: relative;
+  position: relative;
 }
 .background-tortugas::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-image: url('tortugas.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    filter:brightness(100%);
-    -webkit-filter:brightness(100%);
-    -moz-filter:brightness(100%);
-    z-index: -1; /* Asegura que el pseudo-elemento esté detrás del contenido */
-    border: 0px solid #000000;
-    filter: brightness(50%); /* Adjust the value between 0 (darkest) and 1 (original) */
-    -webkit-filter: brightness(50%); /* For Safari compatibility */
-    -moz-filter: brightness(50%); /* For Firefox compatibility */
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("tortugas.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: brightness(100%);
+  -webkit-filter: brightness(100%);
+  -moz-filter: brightness(100%);
+  z-index: -1; /* Asegura que el pseudo-elemento esté detrás del contenido */
+  border: 0px solid #000000;
+  filter: brightness(
+    50%
+  ); /* Adjust the value between 0 (darkest) and 1 (original) */
+  -webkit-filter: brightness(50%); /* For Safari compatibility */
+  -moz-filter: brightness(50%); /* For Firefox compatibility */
 }
 
 .bg-inslogo {
-    border-radius: 75px;
-    padding: 10px; /* Añadir padding para mejorar el espacio alrededor del texto */
-    word-wrap: break-word; /* Asegurarse de que el texto se ajuste al contenedor */
-    /* From https://css.glass */
-    background: rgba(254, 249, 249, 0.57);
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(3.4px);
-    -webkit-backdrop-filter: blur(3.4px);
-    
+  border-radius: 75px;
+  padding: 10px; /* Añadir padding para mejorar el espacio alrededor del texto */
+  word-wrap: break-word; /* Asegurarse de que el texto se ajuste al contenedor */
+  /* From https://css.glass */
+  background: rgba(254, 249, 249, 0.57);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(3.4px);
+  -webkit-backdrop-filter: blur(3.4px);
 }
 @media (max-width: 767.98px) {
-    h1 {
-        font-size: 1.5rem; /* Ajusta el tamaño de la fuente en pantallas pequeñas */
-    }
-    .nav-link {
-        font-size: 1rem; /* Ajusta el tamaño de la fuente de los enlaces en pantallas pequeñas */
-    }
+  h1 {
+    font-size: 1.5rem; /* Ajusta el tamaño de la fuente en pantallas pequeñas */
+  }
+  .nav-link {
+    font-size: 1rem; /* Ajusta el tamaño de la fuente de los enlaces en pantallas pequeñas */
+  }
 }
-
 
 .nav-link {
-    color: #ffffff; /* Color de texto blanco */
-    text-decoration: none; /* Sin subrayado */
-    padding: 0.5rem 1rem; /* Espaciado interno */
-
+  color: #ffffff; /* Color de texto blanco */
+  text-decoration: none; /* Sin subrayado */
+  padding: 0.5rem 1rem; /* Espaciado interno */
 }
 .nav-link:hover {
-    color: #ffc107; /* Color de texto al pasar el ratón */
+  color: #ffc107; /* Color de texto al pasar el ratón */
 }
 
-.bg-black{
-    border-radius: 75px 75px 75px 75px;
-    padding: 10px;
+.bg-black {
+  border-radius: 75px 75px 75px 75px;
+  padding: 10px;
 }
 
-i{
-    text-decoration: none;
+i {
+  text-decoration: none;
 }
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
 
-.boxshadow{
-    box-shadow: 0px 17px 15px -3px rgba(0,0,0,0.1);
+.boxshadow {
+  box-shadow: 0px 17px 15px -3px rgba(0, 0, 0, 0.1);
 }
 
 .custom-card-width {
-    width: 90%;
-    margin: 0 auto; /* Centrar la tarjeta horizontalmente */
+  width: 90%;
+  margin: 0 auto; /* Centrar la tarjeta horizontalmente */
 }
 
-.bg-glass{
-    /* From https://css.glass */
-    /* From https://css.glass */
-background: rgba(255, 255, 255, 0.62);
-border-radius: 16px;
-box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+.bg-glass {
+  /* From https://css.glass */
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.62);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+@media (max-width: 768px) {
+  #aboutCarousel .carousel-inner {
+    height: 100%;
+  }
+  #aboutCarousel .carousel-item {
+    padding: 20px;
+  }
+}
 
-border: 1px solid rgba(255, 255, 255, 0.3);
+.carousel-inner {
+  display: flex;
+}
+.carousel-item {
+  flex: 1 0 auto;
+  display: none; /* Ocultar todas las diapositivas */
+  height: auto;
+}
+.carousel-item.active {
+  display: block; /* Mostrar solo la diapositiva activa */
+}
+.custom-card-width .card-body {
+  min-height: 450px; /* Ajusta esta altura según sea necesario */
+}
+@media (min-width: 768px) {
+  .custom-card-width .card-body {
+    min-height: 450px; /* Ajusta esta altura según sea necesario */
+  }
+}
+
+.custom-card-width {
+  width: 90%;
+  margin: 0 auto; /* Centrar la tarjeta horizontalmente */
+}
+
+.carousel-inner {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.carousel-item {
+  flex: 1 0 auto;
+  display: none; /* Ocultar todas las diapositivas */
+  height: 100%;
+}
+
+.carousel-item.active {
+  display: block; /* Mostrar solo la diapositiva activa */
+}
+
+.custom-card-width .card-body {
+  height: 100%;
+  overflow-y: auto;
+  padding: 20px;
+}
+
+.carousel-inner {
+  min-height: 450px; /* Ajusta esta altura según sea necesario */
 }
