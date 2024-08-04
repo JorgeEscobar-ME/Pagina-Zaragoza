@@ -19,9 +19,10 @@
       <div class="row align-items-center">
         <div class="col-12 col-md-6 d-flex align-items-center bg-inslogo mb-3 mb-md-0">
           <img src="logo_wo_bg.png" alt="logo" class="img-fluid navlogo mb-3 mb-md-0 me-2">
-          <h1 class="mb-0 ms-md-2 text-wrap">Institución Educativa Zaragoza</h1>
+          <h1 class="mb-0 ms-md-2 text-wrap d-none d-md-block">Institución Educativa Zaragoza</h1>
+          <h1 class="mb-0 ms-md-2 text-wrap d-block d-md-none h3">Institución Educativa Zaragoza</h1>
         </div>
-        <nav class="col-12 col-md-6 d-flex justify-content-end">
+        <!-- <nav class="col-12 col-md-6 d-flex justify-content-end">
           <div class="dropdown d-md-none">
             <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton"
               data-bs-toggle="dropdown" aria-expanded="false">
@@ -38,7 +39,7 @@
             <li class="list-inline-item"><a href="#" class="nav-link h2">WIP</a></li>
             <li class="list-inline-item"><a href="#" class="nav-link h2">WIP</a></li>
           </ul>
-        </nav>
+        </nav> -->
       </div>
     </header>
     <section class="container-fluid text-center text-white py-5">
@@ -56,9 +57,9 @@
   </section>
   <!-- Sección de información sobre el colegio -->
   <section id="about" class="py-5 container-fluid bg-light d-none d-md-block">
-    <div class="container">
+    <div class="container-fluid">
         <div class="card custom-card-width bg-glass">
-            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel" data-bs-touch="true" data-bs-interval="3000">
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel" data-bs-touch="true" data-bs-interval="8000">
                 <div class="carousel-indicators">
                     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -70,7 +71,6 @@
                         <div class="carousel-caption d-block">
                             <h5>Sobre Nosotros</h5>
                             <p class="carousel-text">IE Zaragoza es una institución educativa comprometida con la excelencia académica y el desarrollo integral de nuestros estudiantes. Ofrecemos una amplia gama de programas educativos diseñados para preparar a nuestros estudiantes para el éxito en un mundo en constante cambio.</p>
-                            <button class="btn btn-primary read-more-btn">Leer más</button>
                         </div>
                     </div>
                     <div class="carousel-item">
@@ -78,7 +78,6 @@
                         <div class="carousel-caption d-block">
                             <h5>Misión</h5>
                             <p class="carousel-text">La Institución Educativa Zaragoza de carácter oficial con especialidad agropecuaria y agroindustrial está comprometida con la formación integral del ser humano, transformador del entorno y líder de procesos ambientales y de convivencia, proyectándolo al sector productivo a través de competencias laborales mediante procesos de integración con el SENA y con otras instituciones de educación superior.</p>
-                            <button class="btn btn-primary read-more-btn">Leer más</button>
                         </div>
                     </div>
                     <div class="carousel-item">
@@ -86,7 +85,6 @@
                         <div class="carousel-caption d-block">
                             <h5>Visión</h5>
                             <p class="carousel-text">Institución educativa de alta calidad que promueve el desarrollo social desde el saber y enfatiza su aporte en la formación integral de los grupos sociales que, en su zona de influencia, demandan educación pre-escolar, básica, media académica y media técnica debidamente articulada con la educación superior; al igual que de los sectores que requieren atención educativa especial.</p>
-                            <button class="btn btn-primary read-more-btn">Leer más</button>
                         </div>
                     </div>
                 </div>
@@ -159,47 +157,50 @@
   </div>
 </section>
 
-  
-  
-  <section>
-    
-  </section>
   <section class="container-fluid py-5">
     <div class="container-fluid">
       <div class="row">
         <!-- Parte izquierda con 2 bloques -->
         <div class="col-md-6 ">
+          <a href="https://www.facebook.com/institucioneducativazaragozaIEZ">
           <div class="mb-4 card custom-card-width bg-glass">
             <img src="portada_fb.png" alt="portada_fb" class="w-100 py-4">
-            <h3>Página de Facebook</h3>
-            <p>
+            <h3 class="px-2">Página de Facebook</h3>
+            <p class="px-2">
               Contenido de la subsección 1. Esta es una breve descripción o
               contenido que puedes personalizar.
             </p>
           </div>
-          <div class="mb-4 py-5  card custom-card-width bg-glass">
+          </a>
+          <a href="https://www.instagram.com/ie_zaragoza/">
+          <div class="mb-4 py-5 card custom-card-width bg-glass">
             <img src="portada_insta.png" alt="portada_insta" class="w-100">
-            <h3>Cuenta de Instagram</h3>
-            <p>
+            <h3 class="px-2">Cuenta de Instagram</h3>
+            <p class="px-2">
               Contenido de la subsección 2. Esta es una breve descripción o
               contenido que puedes personalizar.
             </p>
           </div>
+        </a>
+        <a href="https://www.tiktok.com/@ie.zaragoza?lang=es">
           <div class="mb-4 py-5  card custom-card-width bg-glass">
             <img src="portada_tiktok.png" alt="portada_insta" class="w-50">
-            <h3>Cuenta de Tiktok</h3>
-            <p>
+            <h3 class="px-2">Cuenta de Tiktok</h3>
+            <p class="px-2">
               Contenido de la subsección 3. Esta es una breve descripción o
               contenido que puedes personalizar.
-            </p>
+              </p>
+            </div>
+          </a>
           </div>
-        </div>
+
+        
         <!-- Parte derecha con 1 bloque grande -->
         <div class="col-md-6">
           <div class=" card custom-card-width bg-glass py-3">
             <img src="foto_bonita.jpg" alt="foto_bonita" class="w-100">
-            <h3>Sección Grande</h3>
-            <p>
+            <h3 class="px-2">Sección Grande</h3>
+            <p class="px-2">
               Contenido de la sección grande. Esta es una descripción más
               extensa o contenido que puedes personalizar. Puedes agregar más
               detalles, imágenes o cualquier otra información relevante aquí.
@@ -208,8 +209,8 @@
           <div class="py-3">
             <div class=" card custom-card-width bg-glass py-3">
               <img src="foto_bonita.jpg" alt="foto_bonita" class="w-100">
-              <h3>Sección Grande</h3>
-              <p>
+              <h3 class="px-2">Sección Grande</h3>
+              <p class="px-2">
                 Contenido de la sección grande. Esta es una descripción más
                 extensa o contenido que puedes personalizar. Puedes agregar más
                 detalles, imágenes o cualquier otra información relevante aquí.
@@ -248,19 +249,23 @@
               <a href="https://www.tiktok.com/@ie.zaragoza?lang=es" target="_blank" class="text-white">
                 <i class="fa-brands fa-tiktok fa-3x"></i>
               </a>
+              <a href="https://www.instagram.com/ie_zaragoza/" target="_blank" class="text-white me-3 fa fa-youtube fa-3x px-2"></a>
             </div>
           </div>
           <!-- Parte derecha con 1 bloque grande -->
           <div class="col-md-6 text-start">
             <h3>Contacto</h3>
             <p>
-              <strong>Dirección:</strong> Cra. 61 #15A-161, Zaragoza,
+              <strong>Dirección:</strong> Cra. 61 #15A-161, Corregimiento Zaragoza,
               Cartago, Valle del Cauca, Colombia
             </p>
-            <p><strong>Número de teléfono:</strong> 22149902</p>
+            <p>
+              <strong>DANE:</strong> 276147000222
+            </p>
+            <p><strong>Número de teléfono:</strong> 3146627040</p>
             <p>
               <strong>Correo electrónico: </strong>
-              <a href="mailto:i_ezaragoza@semcartago.gov.co" class="text-white">i_ezaragoza@semcartago.gov.co</a>
+              <a href="mailto:i_ezaragoza4@gmail.com" class="text-white">iezaragoza4@gmail.com</a>
             </p>
           </div>
         </div>
